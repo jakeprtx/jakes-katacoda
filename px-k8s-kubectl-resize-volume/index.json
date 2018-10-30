@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
-    "title": "HA PostgreSQL on Kubernetes with Portworx",
+    "title": "Resize Kubernetes volumes using kubectl",
     "description": "Using Kubernetes cli kubectl to resize a volume on the fly.",
     "difficulty": "Intermediate",
     "details": {
