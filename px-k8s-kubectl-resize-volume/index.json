@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
-    "title": "Resize Kubernetes volumes using kubectl",
+    "title": "test Resize Kubernetes volumes using kubectl",
     "description": "Using Kubernetes cli kubectl to resize a volume on the fly.",
     "difficulty": "Intermediate",
     "details": {
