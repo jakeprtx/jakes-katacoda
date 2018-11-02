@@ -2,14 +2,14 @@
 
 A popular [Kubernetes storage](https://portworx.com/use-case/kubernetes-storage/) and [Docker persistent storage](https://portworx.com/use-case/docker-persistent-storage/) solution, Portworx is a clustered block storage solution and provides a Cloud-Native layer from which containerized stateful applications programmatically consume block, file and object storage services directly through the scheduler.
 
-In this tutorial, you will learn how to resize a volume using Kubernetes "kubectl" cli:
-* Use the Portworx Storage Class to create a PVC with 3 replicas of the data
-* Use a simple YAML file to deploy PostgreSQL using this storage class
-* Use pgbench to fill up the volume and use kubectl to resize the volume
+In this tutorial, you will learn how to Create a Couchbase cluster using Portworx volumes:
+* Use the Portworx Storage Class to create volumes with 3 replicas of the data
+* Use a simple YAML file to deploy the Couchbase Operator and cluster using this storage class
+* Use pillow fight to fill up the volume and use kubectl to resize the volume
 
 ### High Level Overview
 
-First we will deploy PostgreSQL with replication factor of 3 and with io_profile=db. To learn more about io_profile settings please visit our [docs page](https://docs.portworx.com/maintain/performance/tuning.html#volume-granular-performance-tuning).
+First we will deploy Couchbase with replication factor of 3 and with io_profile=db. To learn more about io_profile settings please visit our [docs page](https://docs.portworx.com/maintain/performance/tuning.html#volume-granular-performance-tuning).
 
 Then we're going run a benchmark to fill up the database.
 
